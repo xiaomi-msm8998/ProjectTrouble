@@ -1,0 +1,9 @@
+ota-property-files=metadata:69:314         
+ota-required-cache=0
+ota-type=BLOCK
+post-build=Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:user/release-keys
+post-build-incremental=eng.arian.20180906.155045
+post-sdk-level=28
+post-security-patch-level=2018-09-05
+post-timestamp=1536241831
+pre-device=sagit

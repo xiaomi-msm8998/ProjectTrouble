@@ -1,0 +1,26 @@
+ui_print("Target: Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:user/release-keys");
+ifelse(is_mounted("/system"), unmount("/system"));
+ui_print("     ");
+ui_print("     Project     ");
+ui_print("     Trouble     ");
+ui_print("     ");
+ui_print("     ");
+ui_print("     By NeoArian     ");
+ui_print("     ");
+ui_print("     @");
+ui_print("     ");
+ui_print("     xda-developers");
+ui_print("     ");
+ui_print("     Thanks to Demon000    ");
+ui_print("     and wight554    ");
+ui_print("     ");
+ui_print("*****************************************************");
+ui_print("****************** Android 9.0 Pie ******************");
+ui_print("*****************************************************");
+ui_print("Patching vendor image unconditionally...");
+block_image_update("/dev/block/bootdevice/by-name/cust", package_extract_file("vendor.transfer.list"), "vendor.new.dat.br", "vendor.patch.dat") ||
+  abort("E2001: Failed to update vendor image.");
+show_progress(0.020000, 10);
+package_extract_file("boot.img", "/dev/block/bootdevice/by-name/boot");
+show_progress(0.200000, 10);
+set_progress(1.000000);
