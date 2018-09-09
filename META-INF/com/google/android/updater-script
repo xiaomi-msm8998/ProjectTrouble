@@ -10,8 +10,6 @@ ui_print("     @");
 ui_print("     ");
 ui_print("     xda-developers");
 ui_print("     ");
-ui_print("     Thanks to Demon000    ");
-ui_print("     and wight554    ");
 ui_print("     ");
 ui_print("*****************************************************");
 ui_print("****************** Android 9.0 Pie ******************");
