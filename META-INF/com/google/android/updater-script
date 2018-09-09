@@ -1,4 +1,3 @@
-ui_print("Target: Xiaomi/sagit/sagit:8.0.0/OPR1.170623.027/V9.2.3.0.OCAMIEK:user/release-keys");
 ifelse(is_mounted("/system"), unmount("/system"));
 ui_print("     ");
 ui_print("     Project     ");
